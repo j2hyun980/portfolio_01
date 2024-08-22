@@ -1,0 +1,78 @@
+/*sub-visual*/
+.sub_visual{background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/sub/sub_movie.jpg) no-repeat center / cover;}
+
+/*search-area*/
+.sch{padding: 150px 0 75px;}
+.sch .sch_box{position: relative; display: flex; padding: 10px 10px 10px 3%; max-width: 1440px; width: 100%; height: 100px; justify-content: space-between; border: 1px solid #000; border-radius: 100px;}
+.sch .sch_box::before{content: ''; position: absolute; left: 0; bottom: -76px; width: 100%; height: 1px; background: #000;}
+.sch .sch_box select{padding: 15px 10px; width: 100px; background: url(../img/sub/icon_sub_selectdown.png) no-repeat center right 10px; appearance: none; outline: none; font-size: 2.3rem;}
+.sch .sch_box select option{font-size: 2.3rem;}
+.sch .sch_box input{outline: none;}
+
+input::-webkit-search-cancel-button{display: none;}
+.sch .sch_box input[type="search"]{padding-left: 4%; width: 80%; border-left: 1px solid #000; font-size: 2.3rem;}
+.sch .sch_box input[type="submit"]{width: 80px; height: 80px; font-size: 0; background: url(../img/sub/icon_sub_sch_w.png) no-repeat center #000; border-radius: 50%; cursor: pointer;}
+
+@media(max-width:1150px){
+  .sch .sch_box select{font-size: 2rem;}
+  .sch .sch_box select option{font-size: 2rem;}
+  .sch .sch_box input[type="search"]{width: 75%; font-size: 2rem;}
+}
+@media(max-width:900px){
+  .sch{padding: 80px 0 40px;}
+  .sch .sch_box{height: 75px;}
+  .sch .sch_box::before{bottom: -41px;}
+  .sch .sch_box select{width: 80px; font-size: 1.8rem; background: url(../img/sub/icon_sub_selectdown.png) no-repeat center right 10px / 15px 11px;}
+  .sch .sch_box select option{font-size: 1.8rem;}
+  .sch .sch_box input[type="search"]{padding-left: 3.5%; font-size: 1.8rem;}
+  .sch .sch_box input[type="submit"]{width: 55px; height: 55px; background: url(../img/sub/icon_sub_sch_w.png) no-repeat center / 30px 30px #000;}
+}
+@media(max-width:600px){
+  .sch .sch_box{padding: 5px 5px 5px 3%; height: 50px;}
+  .sch .sch_box select{padding: 5px; width: 70px; font-size: 1.2rem;}
+  .sch .sch_box select option{font-size: 1.2rem;}
+  .sch .sch_box input[type="search"]{padding-left: 3.5%; width: 60%; font-size: 1.2rem;}
+  .sch .sch_box input[type="search"]:placeholder-shown{text-overflow: ellipsis;}
+  .sch .sch_box input[type="submit"]{width: 38px; height: 38px; background: url(../img/sub/icon_sub_sch_w.png) no-repeat center / 15px 15px #000;}
+}
+@media(max-width:500px){
+  .sch{padding: 60px 0 30px;}
+  .sch .sch_box::before{bottom: -31px;}
+}
+
+/*result-area*/
+.result{padding: 75px 0 150px;}
+.result ul{display: flex; flex-wrap: wrap; gap: 50px 24px;}
+.result ul > li{width: calc((100% - 48px) / 3); border: 1px solid #666;}
+.result ul > li .img_box{width: 100%; height: 400px;}
+.result ul > li .img_box img{width: 100%; height: 400px; object-fit: cover;}
+
+.result ul > li .txt_box{padding: 25px;}
+.result ul > li .txt_box p{font-weight: 600; font-size: 1.4rem;}
+.result ul > li .txt_box h4{padding: 15px 0 10px; width: 100%; font-weight: 600; font-size: 2.3rem; color:#2A4791; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.result ul > li .txt_box .excerpt{width: 100%; font-weight: 400; font-size: 1.4rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.result ul > li .txt_box .excerpt span:not(:first-child){display: inline-block; padding: 0 0 0 10px;}
+
+@media(max-width:1000px){
+  .result ul{gap: 40px 20px;}
+  .result ul > li{width: calc((100% - 40px) / 3);}
+  .result ul > li .img_box{width: 100%; height: 250px;}
+  .result ul > li .img_box img{height: 250px;}
+
+  .result ul > li .txt_box{padding: 15px;}
+  .result ul > li .txt_box p{font-size: 1.2rem;}
+  .result ul > li .txt_box h4{padding: 10px 0 5px; font-size: 1.8rem;}
+  .result ul > li .txt_box .excerpt{font-size: 1.2rem;}
+  .result ul > li .txt_box .excerpt span:not(:first-child){padding: 0 0 0 6px;}
+}
+@media(max-width:900px){
+  .result{padding: 40px 0 80px;}
+}
+@media(max-width:650px){
+  .result ul{gap: 20px 0;}
+  .result ul > li{width: 100%;}
+}
+@media(max-width:500px){
+  .result{padding: 30px 0 60px;}
+  .result ul > li .txt_box h4{font-size: 1.4rem;}
+}

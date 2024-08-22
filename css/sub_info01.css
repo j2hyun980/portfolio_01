@@ -1,0 +1,103 @@
+/*sub-visual*/
+.sub_visual{background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/sub/sub_info.jpg) no-repeat center / cover;}
+
+/*info*/
+.info{padding: 150px 0;}
+.info_list:not(:last-child){padding: 0 0 150px;}
+.info_box{display: flex; flex-wrap: wrap; justify-content: space-between; gap: 60px 0;}
+.info_box .img_box{width: 30%;}
+.info_box .img_box img{width: 100%;}
+
+.info_box .txt_box{width: 65%;}
+.info_box .txt_box li{display: flex; padding: 0 0 40px;}
+.info_box .txt_box li:last-child{padding: 0;}
+.info_box .txt_box li strong{font-weight: 600; font-size: 2.3rem;}
+.info_box .txt_box li p{width: 150px; font-weight: 600; font-size: 2rem; color: #2A4791;}
+.info_box .txt_box li span{font-weight: 500; font-size: 2rem;}
+
+.info_box .sub_txt li{padding: 0 0 50px; font-weight: 400; font-size: 2rem;}
+.info_box .sub_txt li:last-child{padding: 0;}
+.info_box .sub_txt li strong{font-weight: 600; font-size: 2rem;}
+
+/*info_list2*/
+.info_box .auspice_img_box{width: 338px;}
+.info_box .auspice_img_box img{width: 100%;}
+
+/*info_list3*/
+.info_box .org_img_box{width: 620px;}
+.info_box .org_img_box img{width: 100%;}
+
+.info_box .txt_area{width: calc(100% - 720px);}
+.info_box .txt_area h4{padding: 0 0 50px; font-weight: 600; font-size: 2.3rem;}
+.info_box .txt_area h5{padding: 0 0 40px; font-weight: 600; font-size: 2rem;}
+.info_box .txt_area .table_box:first-of-type{padding: 0 0 50px;}
+
+.info_box table tr{text-align: left; vertical-align: top;}
+.info_box table tr th{width: 150px; font-size: 1.8rem;}
+.info_box table tr td{font-size: 1.8rem;}
+.info_box table tr .name{width: 100px;}
+.info_box table tr:not(:last-child) th{ padding: 0 0 40px;}
+.info_box table tr:not(:last-child) td{ padding: 0 0 40px;}
+
+@media(max-width:1450px){
+  .info_box table tr th{width: 120px; font-size: 1.6rem;}
+  .info_box table tr .name{width: 70px;}
+  .info_box table tr td{font-size: 1.6rem;}
+}
+@media(max-width:1150px){
+  .info_box .org_img_box{width: 100%;}
+  .info_box .txt_area{width: 100%;}
+  .info_box table tr th{width: 200px;}
+  .info_box table tr .name{width: 150px;}
+}
+@media(max-width:900px){
+  .info{padding: 80px 0;}
+  .info_list:not(:last-child){padding: 0 0 80px;}
+  .info_box{gap: 50px 0;}
+  .info_box .img_box{width: 40%;}
+  .info_box .txt_box{width: 55%;}
+  .info_box .txt_box li{padding: 0 0 30px;}
+  .info_box .txt_box li strong{font-size: 1.6rem;}
+  .info_box .txt_box li p{width: 100px; font-size: 1.6rem;}
+  .info_box .txt_box li span{font-size: 1.6rem;}
+
+  .info_box .sub_txt li{padding: 0 0 30px;font-size: 1.6rem;}
+  .info_box .sub_txt li strong{font-size: 1.6rem;}
+
+  .info_box .org_img_box{width: 100%;}
+  .info_box .txt_area{width: 100%;}
+  .info_box .txt_area h4{padding: 0 0 30px; font-size: 2rem;}
+  .info_box .txt_area h5{padding: 0 0 30px; font-size: 1.8rem;}
+  .info_box .txt_area .table_box:first-of-type{padding: 0 0 40px;}
+  .info_box table tr:not(:last-child) th{ padding: 0 0 30px;}
+  .info_box table tr:not(:last-child) td{ padding: 0 0 30px;}
+}
+@media(max-width:650px){
+  .info_box .img_box{width: 100%;}
+  .info_box .txt_box{width: 100%;}
+}
+
+@media(max-width:500px){
+  .info{padding: 60px 0;}
+  .info_list:not(:last-child){padding: 0 0 60px;}
+  .info_box{gap: 40px 0;}
+  .info_box .txt_box li{padding: 0 0 20px;}
+  .info_box .txt_box li strong{font-size: 1.4rem;}
+  .info_box .txt_box li p{width: 70px; font-size: 1.4rem;}
+  .info_box .txt_box li span{font-size: 1.4rem;}
+
+  .info_box .sub_txt li{padding: 0 0 20px;font-size: 1.4rem;}
+  .info_box .sub_txt li strong{font-size: 1.4rem;}
+
+  .info_box .auspice_img_box{width: 100%;}
+
+  .info_box .txt_area h4{padding: 0 0 20px; font-size: 1.8rem;}
+  .info_box .txt_area h5{padding: 0 0 20px; font-size: 1.6rem;}
+  .info_box .txt_area .table_box:first-of-type{padding: 0 0 30px;}
+  .info_box table tr:not(:last-child) th{ padding: 0 0 20px;}
+  .info_box table tr:not(:last-child) td{ padding: 0 0 20px;}
+
+  .info_box table tr th{width: 100px; font-size: 1.4rem;}
+  .info_box table tr td{font-size: 1.4rem;}
+  .info_box table tr .name{width: 50px;}
+}

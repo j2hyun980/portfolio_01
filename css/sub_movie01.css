@@ -1,0 +1,52 @@
+/*sub-visual*/
+.sub_visual{background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/sub/sub_movie.jpg) no-repeat center / cover;}
+
+/*movie-area*/
+.movie{padding: 150px 0;}
+.movie .tit_box{display: flex; justify-content: space-between;}
+.movie .tit_box select{padding: 10px; width: 120px; appearance: none; background: url(../img/common/icon_mmenu.png) no-repeat center right 10px / 17px 10px; font-weight: 500; font-size: 2rem; outline: none; border: 1px solid #000;}
+.movie .tit_box select option{font-size: 2rem}
+
+.movie_box:not(:last-child){padding: 0 0 50px;}
+.movie_box h4{padding: 0 0 30px; font-weight: 600; font-size: 2.3rem;}
+.movie_box ul{display: flex; flex-wrap: wrap; gap: 0 24px;}
+.movie_box ul li{width: calc((100% - 72px) / 4); border: 1px solid #666;}
+.movie_box ul li .img_box{width: 100%; height: 300px;}
+.movie_box ul li .img_box img{width: 100%; height: 300px; object-fit: cover;}
+
+.movie_box ul li .txt_box{padding: 25px 20px;}
+.movie_box ul li .txt_box h5{padding: 0 0 10px; width: 100%; font-weight: 600; font-size: 2rem; color:#2A4791; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.movie_box ul > li .txt_box .excerpt{width: 100%; font-weight: 400; font-size: 1.4rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.movie_box ul > li .txt_box .excerpt span:not(:first-child){display: inline-block; padding: 0 0 0 10px;}
+
+@media(max-width:1100px){
+  .movie_box ul{gap: 20px;}
+  .movie_box ul li{width: calc((100% - 20px) / 2);}
+}
+@media(max-width:900px){
+  .movie{padding: 80px 0;}
+  .movie .tit_box select{width: 100px; font-size: 1.6rem;}
+  .movie .tit_box select option{font-size: 1.6rem}
+  .movie_box h4{padding: 0 0 20px;font-size: 1.8rem;}
+  .movie_box ul li .txt_box{padding: 20px 15px;}
+  .movie_box ul li .txt_box h5{font-size: 1.8rem;}
+  .movie_box ul > li .txt_box .excerpt{font-size: 1.2rem;}
+}
+@media(max-width:650px){
+}
+@media(max-width:500px){
+  .movie{padding: 60px 0;}
+  .movie_box h4{padding: 0 0 16px;font-size: 1.6rem;}
+  .movie .tit_box select{width: 80px; font-size: 1.4rem;}
+  .movie .tit_box select option{font-size: 1.4rem}
+
+  .movie_box ul{gap: 16px;}
+  .movie_box ul li{width: calc((100% - 16px) / 2);}
+  .movie_box ul li .img_box{height: 150px;}
+  .movie_box ul li .img_box img{height: 150px;}
+
+  .movie_box ul li .txt_box{padding: 15px 10px;}
+  .movie_box ul li .txt_box h5{padding: 0 0 5px; font-size: 1.4rem;}
+  .movie_box ul > li .txt_box .excerpt{font-size: 1.2rem;}
+  .movie_box ul > li .txt_box .excerpt span:not(:first-child){padding: 0 0 0 5px;}
+}
