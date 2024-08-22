@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--ios에서 숫자를 전화번호로 인식하는 것을 방지-->
+  <meta name="format-detection" content="telephone=no, e-mail=no">
+  <title>정동진독립영화제</title>
+
+  <link rel="shortcut icon" href="../img/common/logo-192x192.jpg" type="image/x-icon">
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="css/font.css"> -->
+
+  <!--web icon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!--css-->
+  <link rel="stylesheet" href="../css/reset.css">
+  <!--swiper-->
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../css/sub_common.css">
+  <link rel="stylesheet" href="../css/sub_info01.css">
+  <!--js-->
+  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/sub_common.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <!--header-->
+    <header id="header" class="sub_header">
+      <div class="inner">
+        <h1>
+          <a href="../index.html"><img src="../img/common/logo.svg" alt="정동진독립영화제"></a>
+        </h1>
+        <!--.gnb-->
+        <nav>
+          <ul class="gnb">
+            <li><a href="../sub/info01_info.html">영화제 소개</a>
+              <!--.depth2-->
+              <ul class="depth2">
+                <li><a href="../sub/info01_info.html">행사 개요</a></li>
+                <li><a href="../sub/info02_guide.html">영화제 가이드</a></li>
+                <li><a href="#">후원/협찬</a></li>
+                <li><a href="#">아이덴티티</a></li>
+              </ul>
+            </li>
+            <li><a href="#">출품/지원</a>
+              <!--.depth2-->
+              <ul class="depth2">
+                <li><a href="#">출품</a></li>
+                <li><a href="#">지원</a></li>
+              </ul>
+            </li>
+            <li><a href="../sub/program.html">프로그램</a>
+              <!--.depth2-->
+              <ul class="depth2">
+                <li><a href="../sub/program.html">부대행사</a></li>
+              </ul>
+            </li>
+            <li><a href="#">역대 영화제</a>
+              <!--.depth2-->
+              <ul class="depth2">
+                <li><a href="../sub/movie01_movie.html">상영작</a></li>
+                <li><a href="#">상영 시간표</a></li>
+                <li><a href="../sub/movie03_search.html">상영작 검색</a></li>
+              </ul>
+            </li>
+            <li><a href="#">커뮤니티</a>
+              <!--.depth2-->
+              <ul class="depth2">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">자유게시판</a></li>
+                <li><a href="#">이벤트게시판</a></li>
+                <li><a href="#">뉴스레터</a></li>
+                <li><a href="#">언론보도</a></li>
+                <li><a href="#">웹데일리</a></li>
+                <li><a href="#">사진첩</a></li>
+              </ul>
+            </li>
+            <li><a href="#">후원안내</a>
+              <!--.depth2-->
+              <ul class="depth2">
+                <li><a href="#">후원 안내</a></li>
+                <li><a href="#">명예의 전당</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <button class="ham">모바일메뉴</button>
+        <!--.util-->
+        <div class="util">
+          <a href="https://theque.tistory.com/">강릉독립예술극장</a>
+          <a href="#">ENG</a>
+          <a href="../sub/movie03_search.html" class="btn_sch"><img src="../img/common/icon_sch_b.svg" alt="검색"></a>
+        </div><!--.util-->
+      </div><!--.inner-->
+      <div class="depth2_bg"></div>
+
+      <!--mobile menu-->
+      <div class="mmenu">
+
+        <div class="mheader">
+          <div class="mheader_inner">
+            <div class="mlogo"><a href="../index.html"><img src="../img/common/logo.svg" alt="정동진독립영화제"></a></div>
+            <div class="mheader_right">
+              <ul class="mutil">
+                <li><a href="https://theque.tistory.com/">강릉독립예술극장</a></li>
+                <li><a href="#">ENG</a></li>
+                <li><a href="../sub/movie03_search.html">검색</a></li>
+              </ul>
+              <button class="mmenu_close">모바일메뉴닫기</button>
+            </div>
+          </div><!--.mmenu_inner-->
+        </div><!--.mheader-->
+
+        <div class="mgnb_area">
+          <ul class="mgnb">
+            <li>
+              <div class="mdepth1">
+                <a href="#">영화제 소개</a>
+                <i class="bi bi-chevron-up slide_down"></i>
+              </div>
+              <!--.mdepth2-->
+              <ul class="mdepth2">
+                <li><a href="../sub/info01_info.html">행사 개요</a></li>
+                <li><a href="../sub/info02_guide.html">영화제 가이드</a></li>
+                <li><a href="#">후원/협찬</a></li>
+                <li><a href="#">아이덴티티</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="mdepth1">
+                <a href="#">출품/지원</a>
+                <i class="bi bi-chevron-up slide_down"></i>
+              </div>
+              <!--.mdepth2-->
+              <ul class="mdepth2">
+                <li><a href="#">출품</a></li>
+                <li><a href="#">지원</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="mdepth1">
+                <a href="#">프로그램</a>
+                <i class="bi bi-chevron-up slide_down"></i>
+              </div>
+              <!--.mdepth2-->
+              <ul class="mdepth2">
+                <li><a href="../sub/program.html">부대행사</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="mdepth1">
+                <a href="">역대 영화제</a>
+                <i class="bi bi-chevron-up slide_down"></i>
+              </div>
+              <!--.mdepth2-->
+              <ul class="mdepth2">
+                <li><a href="../sub/movie01_movie.html">상영작</a></li>
+                <li><a href="#">상영 시간표</a></li>
+                <li><a href="../sub/movie03_search.html">상영작 검색</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="mdepth1">
+                <a href="#">커뮤니티</a>
+                <i class="bi bi-chevron-up slide_down"></i>
+              </div>
+              <!--.mdepth2-->
+              <ul class="mdepth2">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">자유게시판</a></li>
+                <li><a href="#">이벤트게시판</a></li>
+                <li><a href="#">뉴스레터</a></li>
+                <li><a href="#">언론보도</a></li>
+                <li><a href="#">웹데일리</a></li>
+                <li><a href="#">사진첩</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="mdepth1">
+                <a href="#">후원 안내</a>
+                <i class="bi bi-chevron-up slide_down"></i>
+              </div>
+              <!--.mdepth2-->
+              <ul class="mdepth2">
+                <li><a href="#">후원 안내</a></li>
+                <li><a href="#">명예의 전당</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--.mgnb_area-->
+
+      </div><!--.mmenu-->
+    </header>
+
+    <div class="content">
+      <div class="sub_visual">
+        <div class="inner">
+          <h2>영화제 소개</h2>
+          <ul class="sub_depth2">
+            <li class="active"><a href="../sub/info01_info.html">부대행사</a></li>
+            <li><a href="../sub/info02_guide.html">영화제 가이드</a></li>
+            <li><a href="#">후원/협찬</a></li>
+            <li><a href="#">아이덴티티</a></li>
+          </ul>
+        </div><!--.inner-->
+      </div><!--.sub_visual-->
+
+      <section class="info">
+        <div class="inner">
+          <div class="info_list">
+            <h3>행사 개요</h3>
+            <div class="info_box">
+              <div class="img_box">
+                <img src="../img/sub/info.jpg" alt="행사개요">
+              </div>
+              <ul class="txt_box">
+                <li><strong>제26회 정동진독립영화제 (The 26th Jeongdongjin Independent Film Festiva / JIFF26)</strong></li>
+                <li>
+                  <p>일시</p>
+                  <span>2024년 8월 2일(금) ~ 4일(일) (2박 3일)</span>
+                </li>
+                <li>
+                  <p>장소</p>
+                  <span>강원도 강릉시 정동초등학교 운동장</span>
+                </li>
+                <li>
+                  <p>주최</p>
+                  <span>강릉씨네마떼끄</span>
+                </li>
+                <li>
+                  <p>주관</p>
+                  <span>제26회 정동진독립영화제 집행위원회</span>
+                </li>
+                <li>
+                  <p>성격</p>
+                  <span>야외 독립영화제</span>
+                </li>
+                <li>
+                  <p>슬로건</p>
+                  <span>별이 지는 하늘 영화가 뜨는 바다</span>
+                </li>
+                <li>
+                  <p>사업목표</p>
+                  <span>독립영화의 저변 확대, 지역 영상문화 활성화</span>
+                </li>
+              </ul>
+              <ul class="sub_txt">
+                <li>올해로 26회를 맞이하는 정동진독립영화제는 강릉씨네마떼끄 주최로 매년 8월 첫째 주, 강릉 정동초등학교에서 열리는 독립영화의 여름축제입니다. 1999년, (사)한국독립영화협회와
+                  기획해 대안·독립·낭만의 영화제로 탄생된 정동진독립영화제는 관객과 적극적으로 교감할 수 있는 독립영화를 상영합니다. 또한 관객과 함께하는 개막식, 감독과 배우를 초청하여 이야기를 나눌
+                  수 있는 관객과의 대화 시간, 재미있게 본 영화에 동전으로 투표하는 관객상인 땡그랑동전상 등 관객친화형 프로그램을 운영합니다.
+                </li>
+                <li>모든 작품을 야외에서 상영하는 개성 넘치는 영화제로 매년 8월 첫 번째 주말, 강릉시 정동초등학교 운동장에서 열립니다.</li>
+                <li><strong>* 정동진독립영화제의 모든 영화는 무료로 상영됩니다.</strong></li>
+              </ul>
+            </div><!--.info_box-->
+          </div><!--.info_list1-->
+
+          <div class="info_list">
+            <h3>주최단체</h3>
+            <div class="info_box">
+              <div class="auspice_img_box">
+                <img src="../img/sub/auspice.png" alt="강릉씨네마떼끄">
+              </div>
+              <ul class="sub_txt">
+                <li>강릉씨네마떼끄는 영화공동체를 꿈꾸며 1996년 강릉에서 창립되었습니다. 초창기 소규모 상영회와 영화 세미나 등을 시작으로, 강원지역에서 만나기 쉽지 않은 독립영화를 공동체상영 하고
+                  영상미디어교육활동을 진행하였습니다. 대규모 산업 주도의 영상문화 속에서 영화를 둘러싼 다양한 문화적 가치에 주목하고 꾸준한 실천을 모색하며 영화의 자리를 넓혀나가고 있습니다.
+                </li>
+                <li>1998년부터 ‘강릉인권영화제’를 개최하고, 1999년부터 ‘정동진독립영화제’를 주최하였으며, 2012년 ‘강릉독립예술극장 신영’을 개관하여 지금까지 운영하고 있습니다.</li>
+              </ul>
+            </div><!--.info_box-->
+          </div><!--.info_list2-->
+
+          <div class="info_list">
+            <h3>조직 구성</h3>
+            <div class="info_box">
+              <div class="org_img_box">
+                <img src="../img/sub/org.png" alt="조직 구성">
+              </div>
+              <div class="txt_area">
+                <h4>제26회 정동진독립영화제 조직구성</h4>
+                <div class="table_box">
+                  <h5>&#60;집행위원회&#62;</h5>
+                  <table>
+                    <tr>
+                      <th>명예집행위원장</th>
+                      <td class="name">박광수</td>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>집행위원장</th>
+                      <td class="name">김진유</td>
+                      <td>영화감독</td>
+                    </tr>
+                    <tr>
+                      <th>부집행위원장</th>
+                      <td class="name">송은지</td>
+                      <td>강릉독립예술극장 신영 프로그래머</td>
+                    </tr>
+                    <tr>
+                      <th>집행위원</th>
+                      <td class="name">권정삼</td>
+                      <td>강릉씨네마떼끄대표</td>
+                    </tr>
+                    <tr>
+                      <th>집행위원</th>
+                      <td class="name">김슬기</td>
+                      <td>정동진독립영화제 사무국장</td>
+                    </tr>
+                    <tr>
+                      <th>집행위원</th>
+                      <td class="name">김영우</td>
+                      <td>서울독립영화제 프로그래머</td>
+                    </tr>
+                    <tr>
+                      <th>집행위원</th>
+                      <td class="name">박근영</td>
+                      <td>영화감독</td>
+                    </tr>
+                    <tr>
+                      <th>집행위원</th>
+                      <td class="name">박채은</td>
+                      <td>독립미디어연구소 공동대표 / 프로듀서</td>
+                    </tr>
+                    <tr>
+                      <th>집행위원</th>
+                      <td class="name">방은진</td>
+                      <td>배우 / 영화감독</td>
+                    </tr>
+                    <tr>
+                      <th>집행위원</th>
+                      <td class="name">조계영</td>
+                      <td>필앤플랜 대표</td>
+                    </tr>
+                  </table>
+                </div><!--.table_box1-->
+
+                <div class="table_box">
+                  <h5>&#60;사무국&#62;</h5>
+                  <table>
+                    <tr>
+                      <th>사무국장</th>
+                      <td class="name">김슬기</td>
+                      <td>jiff.kr@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <th>홍보</th>
+                      <td class="name">구태현</td>
+                      <td>jiff.kr@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <th>운영</th>
+                      <td class="name">장병섭</td>
+                      <td>jiff.kr@gmail.com</td>
+                    </tr>
+                  </table>
+                </div><!--.table_box2-->
+              </div><!--.txt_area-->
+            </div><!--.info_box-->
+          </div><!--.info_list3-->
+        </div><!--.inner-->
+      </section>
+
+    </div><!--.content-->
+
+    <!--footer-->
+    <footer id="footer">
+      <div class="inner">
+        <div class="footer_top">
+          <ul>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">저작권정책</a></li>
+            <li><a href="#">문의하기</a></li>
+            <li><a href="#">역대영화제</a></li>
+          </ul>
+        </div>
+        <div class="footer_btm">
+          <div class="txt_box">
+            <address>(25540) 강원도 강릉시 경강로 2100 (임당동, 신영2빌딩) 4층 정동진독립영화제 사무국 Jeongdongjin Independent Film Festival
+            </address>
+            <p class="tel"><a href="tel:033-645-7415">T. 033-645-7415</a><span>F. 033-644-7415</span><span>E.
+                jiff.kr@gmail.com</span>
+            </p>
+            <small>( 본 사이트는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었으며, 사용된 일부 이미지 및 폰트는 별도의 출처가 있음을 밝힙니다. )</small>
+          </div>
+          <div class="img_box"><img src="../img/common/f_logo_white.svg" alt="정동진독립영화제"></div>
+        </div>
+      </div>
+    </footer>
+
+    <!--quick-menu-->
+    <div class="quick_area">
+      <div class="quick_menu">
+        <div class="btn_volunteer"><a href="#">출품/지원</a></div>
+        <div class="btn_movie"><a href="#">역대 영화제</a></div>
+        <div class="btn_map"><a href="#">오시는길</a></div>
+      </div>
+      <button class="gotop">맨위로</button>
+    </div>
+
+    <!--mobile-quick-menu = fab-btn-->
+    <div class="fab">
+      <div class="fab_area">
+        <div class="mbtn_area">
+          <div class="mbtn_list">
+            <div class="mbtn_volunteer"><a href="#">출품/지원</a></div>
+            <div class="mbtn_movie"><a href="#">역대 영화제</a></div>
+            <div class="mbtn_map"><a href="#">오시는길</a></div>
+            <button class="mbtn_gotop">맨위로</button>
+          </div>
+        </div>
+        <div class="btn_fab_area">
+          <button class="btn_fab_close"><img src="../img/common/mbtn_fab_close.png" alt="fab버튼"></button>
+          <button class="btn_fab"><img src="../img/common/mbtn_fab.png" alt="fab버튼"></button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

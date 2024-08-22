@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--ios에서 숫자를 전화번호로 인식하는 것을 방지-->
+  <meta name="format-detection" content="telephone=no, e-mail=no">
+  <title>정동진독립영화제</title>
+
+  <link rel="shortcut icon" href="../img/common/logo-192x192.jpg" type="image/x-icon">
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="css/font.css"> -->
+
+  <!--web icon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!--css-->
+  <link rel="stylesheet" href="../css/reset.css">
+  <!--swiper-->
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../css/sub_common.css">
+  <link rel="stylesheet" href="../css/sub_movie03.css">
+  <!--js-->
+  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/sub_common.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <!--header-->
+    <header id="header" class="sub_header">
+      <div class="inner">
+        <h1>
+          <a href="../index.html"><img src="../img/common/logo.svg" alt="정동진독립영화제"></a>
+        </h1>
+        <!--.gnb-->
+        <nav>
+          <ul class="gnb">
+            <li><a href="../sub/info01_info.html">영화제 소개</a>
+              <!--.depth2-->
+              <ul class="depth2">
+                <li><a href="../sub/info01_info.html">행사 개요</a></li>
+                <li><a href="../sub/info02_guide.html">영화제 가이드</a></li>
+                <li><a href="#">후원/협찬</a></li>
+                <li><a href="#">아이덴티티</a></li>
+              </ul>
+            </li>
+            <li><a href="#">출품/지원</a>
+              <!--.depth2-->
+              <ul class="depth2">
+                <li><a href="#">출품</a></li>
+                <li><a href="#">지원</a></li>
+              </ul>
+            </li>
+            <li><a href="../sub/program.html">프로그램</a>
+              <!--.depth2-->
+              <ul class="depth2">
+                <li><a href="../sub/program.html">부대행사</a></li>
+              </ul>
+            </li>
+            <li><a href="#">역대 영화제</a>
+              <!--.depth2-->
+              <ul class="depth2">
+                <li><a href="../sub/movie01_movie.html">상영작</a></li>
+                <li><a href="#">상영 시간표</a></li>
+                <li><a href="../sub/movie03_search.html">상영작 검색</a></li>
+              </ul>
+            </li>
+            <li><a href="#">커뮤니티</a>
+              <!--.depth2-->
+              <ul class="depth2">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">자유게시판</a></li>
+                <li><a href="#">이벤트게시판</a></li>
+                <li><a href="#">뉴스레터</a></li>
+                <li><a href="#">언론보도</a></li>
+                <li><a href="#">웹데일리</a></li>
+                <li><a href="#">사진첩</a></li>
+              </ul>
+            </li>
+            <li><a href="#">후원안내</a>
+              <!--.depth2-->
+              <ul class="depth2">
+                <li><a href="#">후원 안내</a></li>
+                <li><a href="#">명예의 전당</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <button class="ham">모바일메뉴</button>
+        <!--.util-->
+        <div class="util">
+          <a href="https://theque.tistory.com/">강릉독립예술극장</a>
+          <a href="#">ENG</a>
+          <a href="../sub/movie03_search.html" class="btn_sch"><img src="../img/common/icon_sch_b.svg" alt="검색"></a>
+        </div><!--.util-->
+      </div><!--.inner-->
+      <div class="depth2_bg"></div>
+
+      <!--mobile menu-->
+      <div class="mmenu">
+
+        <div class="mheader">
+          <div class="mheader_inner">
+            <div class="mlogo"><a href="../index.html"><img src="../img/common/logo.svg" alt="정동진독립영화제"></a></div>
+            <div class="mheader_right">
+              <ul class="mutil">
+                <li><a href="https://theque.tistory.com/">강릉독립예술극장</a></li>
+                <li><a href="#">ENG</a></li>
+                <li><a href="../sub/movie03_search.html">검색</a></li>
+              </ul>
+              <button class="mmenu_close">모바일메뉴닫기</button>
+            </div>
+          </div><!--.mmenu_inner-->
+        </div><!--.mheader-->
+
+        <div class="mgnb_area">
+          <ul class="mgnb">
+            <li>
+              <div class="mdepth1">
+                <a href="#">영화제 소개</a>
+                <i class="bi bi-chevron-up slide_down"></i>
+              </div>
+              <!--.mdepth2-->
+              <ul class="mdepth2">
+                <li><a href="../sub/info01_info.html">행사 개요</a></li>
+                <li><a href="../sub/info02_guide.html">영화제 가이드</a></li>
+                <li><a href="#">후원/협찬</a></li>
+                <li><a href="#">아이덴티티</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="mdepth1">
+                <a href="#">출품/지원</a>
+                <i class="bi bi-chevron-up slide_down"></i>
+              </div>
+              <!--.mdepth2-->
+              <ul class="mdepth2">
+                <li><a href="#">출품</a></li>
+                <li><a href="#">지원</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="mdepth1">
+                <a href="#">프로그램</a>
+                <i class="bi bi-chevron-up slide_down"></i>
+              </div>
+              <!--.mdepth2-->
+              <ul class="mdepth2">
+                <li><a href="../sub/program.html">부대행사</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="mdepth1">
+                <a href="">역대 영화제</a>
+                <i class="bi bi-chevron-up slide_down"></i>
+              </div>
+              <!--.mdepth2-->
+              <ul class="mdepth2">
+                <li><a href="../sub/movie01_movie.html">상영작</a></li>
+                <li><a href="#">상영 시간표</a></li>
+                <li><a href="../sub/movie03_search.html">상영작 검색</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="mdepth1">
+                <a href="#">커뮤니티</a>
+                <i class="bi bi-chevron-up slide_down"></i>
+              </div>
+              <!--.mdepth2-->
+              <ul class="mdepth2">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">자유게시판</a></li>
+                <li><a href="#">이벤트게시판</a></li>
+                <li><a href="#">뉴스레터</a></li>
+                <li><a href="#">언론보도</a></li>
+                <li><a href="#">웹데일리</a></li>
+                <li><a href="#">사진첩</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="mdepth1">
+                <a href="#">후원 안내</a>
+                <i class="bi bi-chevron-up slide_down"></i>
+              </div>
+              <!--.mdepth2-->
+              <ul class="mdepth2">
+                <li><a href="#">후원 안내</a></li>
+                <li><a href="#">명예의 전당</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--.mgnb_area-->
+
+      </div><!--.mmenu-->
+    </header>
+
+    <div class="content">
+      <div class="sub_visual">
+        <div class="inner">
+          <h2>역대영화제</h2>
+          <ul class="sub_depth2">
+            <li><a href="../sub/movie01_movie.html">상영작</a></li>
+            <li><a href="#">상영시간표</a></li>
+            <li class="active"><a href="../sub/movie03_search.html">상영작 검색</a></li>
+          </ul>
+        </div><!--.inner-->
+      </div><!--.sub_visual-->
+
+      <section class="sch">
+        <div class="inner">
+          <h3>상영작 검색</h3>
+          <form>
+            <fieldset>
+              <legend>검색페이지</legend>
+              <div class="sch_box">
+                <select>
+                  <option>jiff25</option>
+                  <option>jiff24</option>
+                  <option>jiff23</option>
+                  <option>jiff22</option>
+                  <option>jiff21</option>
+                </select>
+                <input type="search" placeholder="검색하고자하는 키워드를 입력하세요.">
+                <input type="submit" value="검색하기">
+              </div>
+            </fieldset>
+          </form>
+        </div><!--.inner-->
+      </section>
+
+      <section class="result">
+        <div class="inner">
+          <h3>역대 영화제 수상작</h3>
+          <ul class="result_list">
+
+            <li class="result_card">
+              <a href="#">
+                <div class="img_box">
+                  <img src="../img/sub/award_01.jpg" alt="수능을 치려면">
+                </div>
+                <div class="txt_box">
+                  <p>jiff25 땡그랑동전상</p>
+                  <h4>수능을 치려면</h4>
+                  <p class="excerpt">
+                    <span>김선빈</span>
+                    <span>극</span>
+                    <span>2023</span>
+                    <span>27분</span>
+                    <span>컬러</span>
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="result_card">
+              <a href="#">
+                <div class="img_box">
+                  <img src="../img/sub/award_02.png" alt="더 납작 엎드릴게요">
+                </div>
+                <div class="txt_box">
+                  <p>jiff25 땡그랑동전상</p>
+                  <h4>더 납작 엎드릴게요</h4>
+                  <p class="excerpt">
+                    <span>김은영</span>
+                    <span>극</span>
+                    <span>2023</span>
+                    <span>62분 45초</span>
+                    <span>컬러</span>
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="result_card">
+              <a href="#">
+                <div class="img_box">
+                  <img src="../img/sub/award_03.jpg" alt="자르고 붙이기">
+                </div>
+                <div class="txt_box">
+                  <p>jiff25 땡그랑동전상</p>
+                  <h4>자르고 붙이기</h4>
+                  <p class="excerpt">
+                    <span>김효준</span>
+                    <span>극</span>
+                    <span>2022</span>
+                    <span>26분 49초</span>
+                    <span>컬러</span>
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="result_card">
+              <a href="#">
+                <div class="img_box">
+                  <img src="../img/sub/award_04.jpg" alt="빨간마스크 94F">
+                </div>
+                <div class="txt_box">
+                  <p>jiff24 땡그랑동전상</p>
+                  <h4>빨간마스크 94F</h4>
+                  <p class="excerpt">
+                    <span>김민하</span>
+                    <span>극</span>
+                    <span>2022</span>
+                    <span>16분</span>
+                    <span>컬러</span>
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="result_card">
+              <a href="#">
+                <div class="img_box">
+                  <img src="../img/sub/award_05.png" alt="벌레">
+                </div>
+                <div class="txt_box">
+                  <p>jiff24 땡그랑동전상</p>
+                  <h4>벌레</h4>
+                  <p class="excerpt">
+                    <span>김해리</span>
+                    <span>극</span>
+                    <span>2022</span>
+                    <span>13분 09초</span>
+                    <span>컬러</span>
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="result_card">
+              <a href="#">
+                <div class="img_box">
+                  <img src="../img/sub/award_06.jpg" alt="심장의 벌레">
+                </div>
+                <div class="txt_box">
+                  <p>jiff24 땡그랑동전상</p>
+                  <h4>심장의 벌레</h4>
+                  <p class="excerpt">
+                    <span>한원영</span>
+                    <span>극</span>
+                    <span>2022</span>
+                    <span>23분 32초</span>
+                    <span>컬러</span>
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="result_card">
+              <a href="#">
+                <div class="img_box">
+                  <img src="../img/sub/award_07.jpg" alt="순영">
+                </div>
+                <div class="txt_box">
+                  <p>jiff23 땡그랑동전상</p>
+                  <h4>순영</h4>
+                  <p class="excerpt">
+                    <span>박서영</span>
+                    <span>극</span>
+                    <span>2021</span>
+                    <span>26분 45초</span>
+                    <span>컬러</span>
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="result_card">
+              <a href="#">
+                <div class="img_box">
+                  <img src="../img/sub/award_08.jpg" alt="성적표의 김민영">
+                </div>
+                <div class="txt_box">
+                  <p>jiff23 땡그랑동전상</p>
+                  <h4>성적표의 김민영</h4>
+                  <p class="excerpt">
+                    <span>이재은, 임지선</span>
+                    <span>극</span>
+                    <span>2021</span>
+                    <span>93분 42초</span>
+                    <span>컬러</span>
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="result_card">
+              <a href="#">
+                <div class="img_box">
+                  <img src="../img/sub/award_09.jpg" alt="너에게 가는 길">
+                </div>
+                <div class="txt_box">
+                  <p>jiff23 땡그랑동전상</p>
+                  <h4>너에게 가는 길</h4>
+                  <p class="excerpt">
+                    <span>변규리</span>
+                    <span>다큐멘터리</span>
+                    <span>2021</span>
+                    <span>92분 46초</span>
+                    <span>컬러</span>
+                  </p>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+        </div><!--.inner-->
+      </section>
+
+    </div><!--.content-->
+
+    <!--footer-->
+    <footer id="footer">
+      <div class="inner">
+        <div class="footer_top">
+          <ul>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">저작권정책</a></li>
+            <li><a href="#">문의하기</a></li>
+            <li><a href="#">역대영화제</a></li>
+          </ul>
+        </div>
+        <div class="footer_btm">
+          <div class="txt_box">
+            <address>(25540) 강원도 강릉시 경강로 2100 (임당동, 신영2빌딩) 4층 정동진독립영화제 사무국 Jeongdongjin Independent Film Festival
+            </address>
+            <p class="tel"><a href="tel:033-645-7415">T. 033-645-7415</a><span>F. 033-644-7415</span><span>E.
+                jiff.kr@gmail.com</span>
+            </p>
+            <small>( 본 사이트는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었으며, 사용된 일부 이미지 및 폰트는 별도의 출처가 있음을 밝힙니다. )</small>
+          </div>
+          <div class="img_box"><img src="../img/common/f_logo_white.svg" alt="정동진독립영화제"></div>
+        </div>
+      </div>
+    </footer>
+
+    <!--quick-menu-->
+    <div class="quick_area">
+      <div class="quick_menu">
+        <div class="btn_volunteer"><a href="#">출품/지원</a></div>
+        <div class="btn_movie"><a href="#">역대 영화제</a></div>
+        <div class="btn_map"><a href="#">오시는길</a></div>
+      </div>
+      <button class="gotop">맨위로</button>
+    </div>
+
+    <!--mobile-quick-menu = fab-btn-->
+    <div class="fab">
+      <div class="fab_area">
+        <div class="mbtn_area">
+          <div class="mbtn_list">
+            <div class="mbtn_volunteer"><a href="#">출품/지원</a></div>
+            <div class="mbtn_movie"><a href="#">역대 영화제</a></div>
+            <div class="mbtn_map"><a href="#">오시는길</a></div>
+            <button class="mbtn_gotop">맨위로</button>
+          </div>
+        </div>
+        <div class="btn_fab_area">
+          <button class="btn_fab_close"><img src="../img/common/mbtn_fab_close.png" alt="fab버튼"></button>
+          <button class="btn_fab"><img src="../img/common/mbtn_fab.png" alt="fab버튼"></button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
